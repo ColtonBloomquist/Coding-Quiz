@@ -1,0 +1,38 @@
+.main-content {
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+.description {
+    display: flex;
+    flex: wrap;
+    margin: 0 auto;
+    max-width: 30%;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+#question {
+    font-size: 36px;
+}
+
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#timer {
+    padding-right: 10px;
+    font-weight: bold;
+}
+
+
+button {
+    background-color: cadetblue;
+    padding: 5px 15px 5px 15px;
+    font-weight: bold;
+    border-radius: 10px;
+}
