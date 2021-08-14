@@ -1,38 +1,66 @@
-.main-content {
-    text-align: center;
-    padding-top: 50px;
-    
+#main-content {
+  text-align: center;
+  padding-top: 50px;
 }
 
 .description {
-    display: flex;
-    flex: wrap;
-    margin: 0 auto;
-    max-width: 30%;
-    font-size: 18px;
-    font-weight: 400;
+  display: flex;
+  flex: wrap;
+  margin: 0 auto;
+  max-width: 30%;
+  font-size: 18px;
+  font-weight: 400;
 }
 
-#question {
-    font-size: 36px;
+#title {
+  font-size: 36px;
 }
 
 .header {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0 auto;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
 }
 
 #timer {
-    padding-right: 10px;
-    font-weight: bold;
+  padding-right: 10px;
+  font-weight: bold;
 }
 
-
 button {
-    background-color: cadetblue;
-    padding: 5px 15px 5px 15px;
-    font-weight: bold;
-    border-radius: 10px;
+  background-color: cornflowerblue;
+  padding: 5px 15px 5px 15px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+}
+
+.general-btn {
+  padding: 10px;
+}
+.option-btn {
+  background-color: cornflowerblue;
+}
+
+.general-btn:hover {
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.btn-grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  max-width: 150px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.high-score-container {
+  grid-template-columns: 1fr;
+  display: grid;
+  grid-gap: 5px;
+  margin-top: 30px;
 }
